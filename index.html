@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Treasure Trails!</title>
+        <link rel="shortcut icon" href="https://img.freepik.com/free-vector/treasure-box-background-with-gold-diamonds_23-2147877077.jpg?size=338&ext=jpg">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="treasurehunt.css">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+
+    </head>
+    <body>
+    <div id="section-one">
+        <h1 class="top">Treasure Trails</h1>
+        <h2 class="top">Find all of the treasure to win!</h2>
+            <em class="list"><ol class="rules">
+                <li class="rules">Click on squares</li>
+                <li class="rules">Get lucky</li>
+                <li class="rules">Find the treasure!</li>
+            </ol></em>
+    </div>
+            <hr />
+                <!-- TABLE BELOW -->
+                <div class="container">
+                <table class="table">
+                    <tr>
+                        <td class="box" id=0 onclick = 'treasure(0)'><img src="https://static.vecteezy.com/system/resources/previews/000/377/006/non_2x/palm-tree-vector-icon.jpg" width="40px"</td>
+                        <td class="box" id=1 onclick = 'treasure(1)'><img src="https://static.vecteezy.com/system/resources/previews/000/377/006/non_2x/palm-tree-vector-icon.jpg" width="40px"</td>
+                        <td class="box" id=2 onclick = 'treasure(2)'><img src="https://static.vecteezy.com/system/resources/previews/000/377/006/non_2x/palm-tree-vector-icon.jpg" width="40px"</td>
+                    </tr>
+                    <tr>
+                        <td class="box" id=3 onclick = 'treasure(3)'><img src="https://static.vecteezy.com/system/resources/previews/000/377/006/non_2x/palm-tree-vector-icon.jpg" width="40px"</td>
+                        <td class="box" id=4 onclick = 'treasure(4)'><img src="https://static.vecteezy.com/system/resources/previews/000/377/006/non_2x/palm-tree-vector-icon.jpg" width="40px"</td>
+                        <td class="box" id=5 onclick = 'treasure(5)'><img src="https://static.vecteezy.com/system/resources/previews/000/377/006/non_2x/palm-tree-vector-icon.jpg" width="40px"</td>
+                    </tr>
+                    <tr>
+                        <td class="box" id=6 onclick = 'treasure(6)'><img src="https://static.vecteezy.com/system/resources/previews/000/377/006/non_2x/palm-tree-vector-icon.jpg" width="40px"</td>
+                        <td class="box" id=7 onclick = 'treasure(7)'><img src="https://static.vecteezy.com/system/resources/previews/000/377/006/non_2x/palm-tree-vector-icon.jpg" width="40px"</td>
+                        <td class="box" id=8 onclick = 'treasure(8)'><img src="https://static.vecteezy.com/system/resources/previews/000/377/006/non_2x/palm-tree-vector-icon.jpg" width="40px"</td>
+                    </tr>
+                </table>
+                </div>
+                <br />
+                <div id="buttoncenter">
+                    <button type="button" class="btn btn-primary btn-lg" onclick="location.reload()">Restart Game</button>
+                </div>
+
+                <strong><p>Clicks Left: <a id="counter" >3</a></p></strong>
+                <br />
+                <hr />
+                <div id="section-5">
+                <footer>
+                    <div id="section-5">
+
+                    &copy | Stephen | Miguel | Jumpstart
+                    <br />
+                <a href="#top">top of page |</a>
+                <a href="https://www.google.com/" target="_blank">Google</a>
+            </footer>
+            </div>
+                <script type='text/javascript' src = 'treasurehunt.js'></script>
+    </body>
+</html>
